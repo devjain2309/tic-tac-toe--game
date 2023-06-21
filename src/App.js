@@ -69,6 +69,13 @@ function App() {
   };
 
   return (
+    <>
+    <div className='heading'>
+      <strong><span>Welcome To Tic Tac Toe Game</span></strong>
+    </div>
+    <div className="turn-display">
+        <span>It's {player}'s Turn</span>
+      </div>
     <div className="App">
       <div className="board">
         <div className="row">
@@ -133,6 +140,13 @@ function App() {
         </div>
       </div>
     </div>
+    <div className='footer'>
+      <span>Made with ❤️ by Dev</span>
+    </div>
+    <div className='github'>
+      <a href='https://github.com/devjainofficial'><span>@devjainofficial</span></a>
+    </div>
+    </>
   );
 }
 
